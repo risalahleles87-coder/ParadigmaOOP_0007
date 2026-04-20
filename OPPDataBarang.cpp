@@ -18,3 +18,22 @@ public:
 
 }; // batas class
 
+int main(){
+
+    // object 1
+    Barang elektronik;
+    elektronik.nama = "Laptop";
+    elektronik.jumlah = 5;
+    elektronik.kategori = "Elektronik";
+    elektronik.tanggalProduksi = "2026-04-20";
+
+    // object 2
+    Barang nonElektronik;
+    nonElektronik.nama = "Buku";
+    nonElektronik.jumlah = 10;
+    nonElektronik.kategori = "Non Elektronik";
+    nonElektronik.tanggalProduksi = "2026-04-20";
+
+
+
+
