@@ -34,6 +34,9 @@ int main(){
     nonElektronik.kategori = "Non Elektronik";
     nonElektronik.tanggalProduksi = "2026-04-20";
 
-
+    // menampilkan data
+    elektronik.printData();
+    nonElektronik.printData();
+}
 
 
